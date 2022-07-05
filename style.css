@@ -17,7 +17,7 @@ h2 {
 }
 
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 50px;
 }
@@ -67,32 +67,37 @@ section {
 
 .my-recepies-heading {
     text-align: center;
-    padding-left: 100px;
+    padding-left: 130px;
 }
 
 .my-recepies-heading p {
     font-size: 20px;
 }
 
-
-.recepie-1 {
+.recepie {
+    box-shadow: 10px 10px 30px whitesmoke;
     width: 50%;
-    padding-left: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
 
 }
 
-.recepie-1 img {
-    width: 60%;
+.recepie img {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
 
-.recepie-2 {
+.social-part {
+    display: inline-flex;
+    padding-left: 500px;
+    box-shadow: 10px 10px 30px whitesmoke;
     width: 50%;
+    text-align: center;
 }
 
-.recepie-2 img {
-    width: 60%;
-}
-
-.last-part {
-    display: flex;
+.sp-text {
+    padding-right: 10%;
 }
