@@ -13,17 +13,20 @@ h1 {
 
 section {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
-.welcome {
+.half-width {
     width: 50%;
-    padding-left: 10%;
-
+    padding-left: 5%;
 }
 
-.welcome img {
-    width: 60%;
+#profile-pic {
+    width: 80%;
+}
+
+#about-me {
+    width: 40%;
 }
 
 .link-button {
@@ -33,4 +36,9 @@ section {
     padding: 10px 20px;
     border: 5px;
     font-weight: 700;
+}
+
+.background-banner {
+    background-image: url(images/frame.jpg);
+    background-repeat: no-repeat;
 }
