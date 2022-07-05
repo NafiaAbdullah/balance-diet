@@ -7,13 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+    color: gray;
+}
+
 .orange-color {
     color: crimson;
 }
 
-p {
-    text-align: justify;
-}
 
 section {
     display: flex;
@@ -33,8 +35,8 @@ section {
     width: 80%;
 }
 
-#about-me {
-    width: 40%;
+#about-pic {
+    width: 50%;
     padding-left: 250px;
 }
 
@@ -44,7 +46,7 @@ section {
     background-image: linear-gradient(to right, orange, tomato);
     padding: 10px 20px;
     border: 5px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .background-banner {
@@ -52,5 +54,13 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
+}
 
+.text-allign {
+    padding-left: 200px;
+}
+
+.Second-part p {
+    text-align: justify;
+    max-width: 50%;
 }
