@@ -11,14 +11,22 @@ h1 {
     color: crimson;
 }
 
+p {
+    text-align: justify;
+}
+
 section {
     display: flex;
     margin-bottom: 50px;
 }
 
-.half-width {
+.initial-part {
     width: 50%;
     padding-left: 5%;
+}
+
+.second-part {
+    width: 50%;
 }
 
 #profile-pic {
@@ -27,6 +35,7 @@ section {
 
 #about-me {
     width: 40%;
+    padding-left: 250px;
 }
 
 .link-button {
@@ -39,6 +48,9 @@ section {
 }
 
 .background-banner {
-    background-image: url(images/frame.jpg);
+    background-image: url(images/frame.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+
 }
