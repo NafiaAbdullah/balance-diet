@@ -64,3 +64,35 @@ section {
     text-align: justify;
     max-width: 50%;
 }
+
+.my-recepies-heading {
+    text-align: center;
+    padding-left: 100px;
+}
+
+.my-recepies-heading p {
+    font-size: 20px;
+}
+
+
+.recepie-1 {
+    width: 50%;
+    padding-left: 40px;
+
+}
+
+.recepie-1 img {
+    width: 60%;
+}
+
+.recepie-2 {
+    width: 50%;
+}
+
+.recepie-2 img {
+    width: 60%;
+}
+
+.last-part {
+    display: flex;
+}
